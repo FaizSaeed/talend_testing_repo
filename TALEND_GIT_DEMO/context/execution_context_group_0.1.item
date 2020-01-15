@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="AURemoteEngine" xmi:id="_rtEw0DeDEeq3A89AKVh64g">
+    <contextParameter comment="" name="ServiceAccount" prompt="ServiceAccount?" promptNeeded="false" type="id_String" value="/mnt/disks/mount_dir/scoot_service_account.json" xmi:id="_rtEw0TeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Workspace" prompt="Workspace?" promptNeeded="false" type="id_String" value="/mnt/disks/mount_dir/" xmi:id="_rtEw0jeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="SchemaPath" prompt="SchemaPath?" promptNeeded="false" type="id_String" value="/mnt/disks/mount_dir/Schemas/" xmi:id="_rtEw0zeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Scripts" prompt="Scripts?" promptNeeded="false" type="id_String" value="/mnt/disks/mount_dir/Scripts/" xmi:id="_rtEw1DeDEeq3A89AKVh64g"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_rtEw1TeDEeq3A89AKVh64g">
+    <contextParameter comment="" name="ServiceAccount" prompt="ServiceAccount?" promptNeeded="false" type="id_String" value="C:/Users/Dell/Downloads/Talend-Studio-20181026_1147-V7.1.1/serviceAccount.json" xmi:id="_rtEw1jeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Workspace" prompt="Workspace?" promptNeeded="false" type="id_String" value="C:/Users/Dell/Downloads/Talend-Studio-20181026_1147-V7.1.1/workspace/" xmi:id="_rtEw1zeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="SchemaPath" prompt="SchemaPath?" promptNeeded="false" type="id_String" value="" xmi:id="_rtEw2DeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Scripts" prompt="Scripts?" promptNeeded="false" type="id_String" value="" xmi:id="_rtEw2TeDEeq3A89AKVh64g"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="faizan_machine" xmi:id="_rtEw2jeDEeq3A89AKVh64g">
+    <contextParameter comment="" name="ServiceAccount" prompt="ServiceAccount?" promptNeeded="false" type="id_String" value="C:/Talend-Studio-20181026_1147-V7.1.1/Talend-Studio-20181026_1147-V7.1.1/workspace/serviceAccount.json" xmi:id="_rtEw2zeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Workspace" prompt="Workspace?" promptNeeded="false" type="id_String" value="C:/Talend-Studio-20181026_1147-V7.1.1/Talend-Studio-20181026_1147-V7.1.1/workspace/" xmi:id="_rtEw3DeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="SchemaPath" prompt="SchemaPath?" promptNeeded="false" type="id_String" value="C:/Users/Rai Shahnawaz/Desktop/Scoot/ETL Jobs/Schemas/" xmi:id="_rtEw3TeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Scripts" prompt="Scripts?" promptNeeded="false" type="id_String" value="C:/Users/&quot;Rai Shahnawaz&quot;/Desktop/Scoot/&quot;ETL Jobs&quot;/Scripts/" xmi:id="_rtEw3jeDEeq3A89AKVh64g"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="sg_remote_engine_live" xmi:id="_rtEw3zeDEeq3A89AKVh64g">
+    <contextParameter comment="" name="ServiceAccount" prompt="ServiceAccount?" promptNeeded="false" type="id_String" value="/mnt/disks/mount_dir/scoot_service_account.json" xmi:id="_rtEw4DeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Workspace" prompt="Workspace?" promptNeeded="false" type="id_String" value="/mnt/disks/mount_dir/" xmi:id="_rtEw4TeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="SchemaPath" prompt="SchemaPath?" promptNeeded="false" type="id_String" value="/mnt/disks/mount_dir/Schemas/" xmi:id="_rtEw4jeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Scripts" prompt="Scripts?" promptNeeded="false" type="id_String" value="/mnt/disks/mount_dir/Scripts/" xmi:id="_rtEw4zeDEeq3A89AKVh64g"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="sg_remote_engine_test" xmi:id="_rtEw5DeDEeq3A89AKVh64g">
+    <contextParameter comment="" name="ServiceAccount" prompt="ServiceAccount?" promptNeeded="false" type="id_String" value="/mnt/disks/mount_dir/scoot_service_account.json" xmi:id="_rtEw5TeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Workspace" prompt="Workspace?" promptNeeded="false" type="id_String" value="/mnt/disks/mount_dir/" xmi:id="_rtEw5jeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="SchemaPath" prompt="SchemaPath?" promptNeeded="false" type="id_String" value="/mnt/disks/mount_dir/Schemas/" xmi:id="_rtEw5zeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Scripts" prompt="Scripts?" promptNeeded="false" type="id_String" value="/mnt/disks/mount_dir/Scripts/" xmi:id="_rtEw6DeDEeq3A89AKVh64g"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="shahnawaz_context" xmi:id="_rtEw6TeDEeq3A89AKVh64g">
+    <contextParameter comment="" name="ServiceAccount" prompt="ServiceAccount?" promptNeeded="false" type="id_String" value="C:/Users/shahnawaz/Downloads/scoot-edw-development-49a5ca86cb3e.json" xmi:id="_rtEw6jeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Workspace" prompt="Workspace?" promptNeeded="false" type="id_String" value="C:/Users/shahnawaz/Desktop/Talend-Studio-20181026_1147-V7.1.1/workspace/" xmi:id="_rtEw6zeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="SchemaPath" prompt="SchemaPath?" promptNeeded="false" type="id_String" value="C:/Users/shahnawaz/Desktop/Schemas/" xmi:id="_rtEw7DeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Scripts" prompt="Scripts?" promptNeeded="false" type="id_String" value="C:/Users/shahnawaz/Desktop/Scripts/" xmi:id="_rtEw7TeDEeq3A89AKVh64g"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="shahnawaz_local" xmi:id="_rtEw7jeDEeq3A89AKVh64g">
+    <contextParameter comment="" name="ServiceAccount" prompt="ServiceAccount?" promptNeeded="false" type="id_String" value="C:/Users/Rai Shahnawaz/Desktop/Scoot/ETL Jobs/serviceAccount.json" xmi:id="_rtEw7zeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Workspace" prompt="Workspace?" promptNeeded="false" type="id_String" value="C:/Users/Rai Shahnawaz/Desktop/Scoot/ETL Jobs/Workspace/" xmi:id="_rtEw8DeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="SchemaPath" prompt="SchemaPath?" promptNeeded="false" type="id_String" value="C:/Users/Rai Shahnawaz/Desktop/Scoot/ETL Jobs/Schemas/" xmi:id="_rtEw8TeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Scripts" prompt="Scripts?" promptNeeded="false" type="id_String" value="C:/Users/&quot;Rai Shahnawaz&quot;/Desktop/Scoot/&quot;ETL Jobs&quot;/Scripts/" xmi:id="_rtEw8jeDEeq3A89AKVh64g"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Usman_Local" xmi:id="_rtEw8zeDEeq3A89AKVh64g">
+    <contextParameter comment="" name="ServiceAccount" prompt="ServiceAccount?" promptNeeded="false" type="id_String" value="C:/Users/Dell/Downloads/Talend-Studio-20181026_1147-V7.1.1/Scoot EDW Live-7b1ff2f1c77d.json" xmi:id="_rtEw9DeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Workspace" prompt="Workspace?" promptNeeded="false" type="id_String" value="C:/Users/Dell/Downloads/Talend-Studio-20181026_1147-V7.1.1/workspace/" xmi:id="_rtEw9TeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="SchemaPath" prompt="SchemaPath?" promptNeeded="false" type="id_String" value="C:/Users/Dell/Downloads/Talend-Studio-20181026_1147-V7.1.1/Schemas/" xmi:id="_rtEw9jeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Scripts" prompt="Scripts?" promptNeeded="false" type="id_String" value="C:/Users/Dell/Downloads/Talend-Studio-20181026_1147-V7.1.1/Scripts/" xmi:id="_rtEw9zeDEeq3A89AKVh64g"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="VDI" xmi:id="_rtEw-DeDEeq3A89AKVh64g">
+    <contextParameter comment="" name="ServiceAccount" prompt="ServiceAccount?" promptNeeded="false" type="id_String" value="C:/Users/usmanmughal/Downloads/scoot-edw-development-49a5ca86cb3e.json" xmi:id="_rtEw-TeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Workspace" prompt="Workspace?" promptNeeded="false" type="id_String" value="C:/Users/usmanmughal/Downloads/Talend-Studio-20181026_1147-V7.1.1/workspace/" xmi:id="_rtEw-jeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="SchemaPath" prompt="SchemaPath?" promptNeeded="false" type="id_String" value="" xmi:id="_rtEw-zeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Scripts" prompt="Scripts?" promptNeeded="false" type="id_String" value="" xmi:id="_rtEw_DeDEeq3A89AKVh64g"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="VDI2" xmi:id="_rtEw_TeDEeq3A89AKVh64g">
+    <contextParameter comment="" name="ServiceAccount" prompt="ServiceAccount?" promptNeeded="false" type="id_String" value="C:/Users/abdulahad/Downloads/Talend-Studio-20181026_1147-V7.1.1/Talend-Studio-20181026_1147-V7.1.1/ServiceAccountFile.json" xmi:id="_rtEw_jeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Workspace" prompt="Workspace?" promptNeeded="false" type="id_String" value="C:/Users/abdulahad/Downloads/Talend-Studio-20181026_1147-V7.1.1/Talend-Studio-20181026_1147-V7.1.1/workspace/" xmi:id="_rtEw_zeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="SchemaPath" prompt="SchemaPath?" promptNeeded="false" type="id_String" value="" xmi:id="_rtExADeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Scripts" prompt="Scripts?" promptNeeded="false" type="id_String" value="" xmi:id="_rtExATeDEeq3A89AKVh64g"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="VDI4" xmi:id="_rtExAjeDEeq3A89AKVh64g">
+    <contextParameter comment="" name="ServiceAccount" prompt="ServiceAccount?" promptNeeded="false" type="id_String" value="C:/Users/asher/Documents/scoot-edw-development-49a5ca86cb3e.json" xmi:id="_rtExAzeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Workspace" prompt="Workspace?" promptNeeded="false" type="id_String" value="C:/Users/asher/Downloads/Talend-Studio-20181026_1147-V7.1.1/Talend-Studio-20181026_1147-V7.1.1/workspace/" xmi:id="_rtExBDeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="SchemaPath" prompt="SchemaPath?" promptNeeded="false" type="id_String" value="" xmi:id="_rtExBTeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Scripts" prompt="Scripts?" promptNeeded="false" type="id_String" value="" xmi:id="_rtExBjeDEeq3A89AKVh64g"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="VDI5" xmi:id="_rtExBzeDEeq3A89AKVh64g">
+    <contextParameter comment="" name="ServiceAccount" prompt="ServiceAccount?" promptNeeded="false" type="id_String" value="C:/Users/aneelasaleem/Downloads/scoot-edw-development-49a5ca86cb3e.json" xmi:id="_rtExCDeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Workspace" prompt="Workspace?" promptNeeded="false" type="id_String" value="C:/Users/aneelasaleem/Downloads/Talend-Studio-20181026_1147-V7.1.1/workspace/" xmi:id="_rtExCTeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="SchemaPath" prompt="SchemaPath?" promptNeeded="false" type="id_String" value="" xmi:id="_rtExCjeDEeq3A89AKVh64g"/>
+    <contextParameter comment="" name="Scripts" prompt="Scripts?" promptNeeded="false" type="id_String" value="" xmi:id="_rtExCzeDEeq3A89AKVh64g"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_cc81c23f-151e-4770-9b43-94021400ac72"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>r7ZO0Vp81WvF7YvlFcnsr16KxqtQL5x2jIBXHqsH2c1WGOrw+lSkdKONko7MSZjUULlUlmXMuPRN
+Uw6gojsbYg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e3e3c0ea-5de4-4484-bbc9-6dd9ea4c12b2"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>mk1jPJTL2u+YfF07Sqdvsw3luCmOrV3oR6rCE5ppdo26+1DW/Fozdy7n5jGqFZVyCDaUxEqcsw9M
+Zx0vFynLIg==</DigestValue></Reference></SignedInfo><SignatureValue>X1HoePiIH1j8Dw1d5b+94hBEZKKnDrk/FWk/3+zAXJefSmJcA1blmRW3+hDcZWGmIUH4QZlJJAmf
+I8J9CrqOtujIsyAxHnENvgZhTaJVGNJf9jfV+vwcJPUcK8rC6Yvd6onpgcfmSwWHHbTFULto3n+k
+zAlKGQG7o70US5WYgNtXwcYrRYLkfpsYQaRHa+fSZsFurEBcEkRHvz/VX5u5qi2sXJqcXHUHc8sN
+k30MnFoVjzaCxTtLxuYSR/4yrO9v89XjEqQ2Gqs8osDSCIRSzy6mmspVQlMC9LVKsdvE74tmHazI
+O3N8UB2O4aaScsepi6TjLT0BkDXOC6SQnXuQIQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e3e3c0ea-5de4-4484-bbc9-6dd9ea4c12b2" Target="#_cc81c23f-151e-4770-9b43-94021400ac72"><Timestamp>2020-01-15 10:42:10</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
