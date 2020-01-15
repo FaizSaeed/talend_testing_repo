@@ -15,6 +15,7 @@
     <module>jobs/process/Telenor/read_from_file_0.1</module>
     <module>jobs/process/Telenor/write_to_file_0.1</module>
     <module>jobs/process/Telenor/copy_of_qualtrics_source_api_insert_live_orgional_0.1</module>
+    <module>jobs/process/Telenor/job_3_0.1</module>
   </modules>
   <properties>
     <signer.version>7.2.1</signer.version>
