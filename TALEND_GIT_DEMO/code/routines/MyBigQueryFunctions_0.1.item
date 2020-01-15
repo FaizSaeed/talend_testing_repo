@@ -1,0 +1,88 @@
+package routines;
+
+import com.google.cloud.bigquery.BigQuery;
+import com.google.cloud.bigquery.BigQueryOptions;
+import com.google.auth.oauth2.GoogleCredentials;
+import com.google.auth.oauth2.ServiceAccountCredentials;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import com.google.cloud.bigquery.QueryJobConfiguration;
+import java.util.UUID;
+import com.google.cloud.bigquery.Job;
+import com.google.cloud.bigquery.JobId;
+import com.google.cloud.bigquery.JobInfo;
+
+
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class MyBigQueryFunctions {
+
+	// [START bigquery_client_json_credentials]
+			public static GoogleCredentials authenticate(String path) throws IOException {
+				// Load credentials from JSON key file. If you can't set the GOOGLE_APPLICATION_CREDENTIALS
+				// environment variable, you can explicitly load the credentials file to construct the
+				// credentials.
+				GoogleCredentials credentials;
+				File credentialsPath = new File(path);
+				try (FileInputStream serviceAccountStream = new FileInputStream(credentialsPath)) {
+					credentials = ServiceAccountCredentials.fromStream(serviceAccountStream);
+				}
+				return credentials;
+			}
+		// [END bigquery_client_json_credentials]
+			
+			public static void executeQuery(String path, String query) throws Exception {
+				
+				// authenticate google account 
+				System.out.println("Authenticating with Google Cloud");
+				GoogleCredentials credentials = authenticate(path);
+				
+				// Instantiate a client.
+				BigQuery bigquery = BigQueryOptions.newBuilder().setProjectId("crypto-visitor-226201").setCredentials(credentials).build().getService();
+				
+				// Initialize a query
+				QueryJobConfiguration queryConfig =
+					    QueryJobConfiguration.newBuilder(query)
+					        // Use standard SQL syntax for queries.
+					        // See: https://cloud.google.com/bigquery/sql-reference/
+					        .setUseLegacySql(false)
+					        .build();
+
+				// Create a job ID so that we can safely retry.
+				JobId jobId = JobId.of(UUID.randomUUID().toString());
+				Job queryJob = bigquery.create(JobInfo.newBuilder(queryConfig).setJobId(jobId).build());
+				
+
+				System.out.println("Executing Query");
+				// Wait for the query to complete.
+				queryJob = queryJob.waitFor();
+
+				// Check for errors
+				if (queryJob == null) {
+				  throw new RuntimeException("Job no longer exists");
+				} 
+				else if (queryJob.getStatus().getError() != null) {
+				  // You can also look at queryJob.getStatus().getExecutionErrors() for all
+				  // errors, not just the latest one.
+				  throw new RuntimeException(queryJob.getStatus().getError().toString());
+				}
+				System.out.println("Query Execution Completed");
+			}
+}
