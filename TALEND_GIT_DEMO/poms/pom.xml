@@ -16,6 +16,7 @@
     <module>jobs/process/Telenor/write_to_file_0.1</module>
     <module>jobs/process/Telenor/job_3_0.1</module>
     <module>jobs/process/Telenor/test_conflict_faizan_0.1</module>
+    <module>jobs/process/Telenor/testing_merge_remote_branch_0.1</module>
   </modules>
   <properties>
     <signer.version>7.2.1</signer.version>
